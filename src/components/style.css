@@ -1,4 +1,33 @@
-.txt{}
-.input{}
-.nav{}
-.greater{}
+.form {
+    display: flex;
+    padding: 10px;
+    margin-left: 250px;
+}
+
+.txt {
+    text-align: center;
+    font-family: Monospace;
+    font-size: large;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px 40px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: antiquewhite;
+    height: 70px;
+}
+
+.greater {
+    text-align: left;
+    padding: 10px;
+    margin-left: 70px;
+    font-family: Monospace;
+}

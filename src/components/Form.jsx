@@ -12,7 +12,7 @@ export default () => {
     }
 
     return(
-        <div>
+        <div className="form">
             <p className="txt">Enter your Name</p>
             <form >
             <input className="input" type="text" name="name" value={name} onChange={onChangeHandler} />
